@@ -12,6 +12,12 @@ const adminSchema = new mongoose.Schema(
       trim: true,
       required: true,
     },
+     userRole: {
+      type: String,
+      trim: true,
+      required: true,
+    },
+
     email: {
       type: String,
       required: true,
