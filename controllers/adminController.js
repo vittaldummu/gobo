@@ -91,6 +91,7 @@ async function createAdmin(req) {
   return new Admin({
     firstName: req.body.firstName,
     lastName: req.body.lastName,
+    userRole: req.body.userRole,
     email: req.body.email,
     password: hashPassword,
     phone: req.body.phone,
