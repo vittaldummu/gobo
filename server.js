@@ -9,6 +9,6 @@ if (process.env.NODE_ENV !== "production") {
 const port = process.env.PORT || 3031;
 
 server.listen(port, () => {
-  console.log(`Server is running on http://172.31.1.63:${port}`);
+  console.log(`Server is running on http://172.31.43.52:${port}`);
 });
 
