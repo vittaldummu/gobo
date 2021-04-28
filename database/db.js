@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const database = mongoose.connect('mongodb://172.31.1.63:27017/userAuthentication1225');
+const database = mongoose.connect('mongodb://localhost:27017/goboapp');
   process.env.DB_URL,
   { useNewUrlParser: true, 
     useUnifiedTopology: true, 
